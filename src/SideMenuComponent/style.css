@@ -1,0 +1,13 @@
+.side-menu{
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  padding:5px 0px;
+
+}
+  
+.side-menu .nav-link {
+  background-color: #ffffff;
+  border: 1px solid rgba(0,0,0,.125);
+  }

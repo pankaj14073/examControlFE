@@ -1,0 +1,87 @@
+
+.login-parent {
+    z-index: 10;
+}
+.home-parent{
+    display: flex;
+    align-items: center;
+}
+
+.main-option{
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    border-radius: .25rem;
+    transform: translate(-50%, -50%);
+}
+
+.option{
+    background-color: #fd7e0c;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+button.option{
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+canvas{
+    background-color: #000;
+}
+.option-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.about-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+    width : 70%
+}
+.canvas-container{
+ width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar-collapse
+{
+    background: white;
+    padding-left: 10px;
+}
+
+.btn-outline-success {
+    color: #fd7e0c;
+    border-color: #fd7e0c;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #fd7e0c;;
+    border-color: #fd7e0c;;
+}

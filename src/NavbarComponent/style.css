@@ -1,0 +1,13 @@
+.profile-image {
+    width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+.dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.navbar {
+    height: 60px
+}
